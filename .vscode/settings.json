@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "permutations.h": "c",
+        "crypto_hash.h": "c",
+        "printstate.h": "c",
+        "cstdint": "cpp",
+        "ascon-reference.h": "c",
+        "simpleserial.h": "c",
+        "photon.h": "c",
+        "stdlib.h": "c",
+        "stdint.h": "c",
+        "hal.h": "c",
+        "stdbool.h": "c",
+        "__hash_table": "c",
+        "unordered_map": "c",
+        "unordered_set": "c"
+    }
+}
