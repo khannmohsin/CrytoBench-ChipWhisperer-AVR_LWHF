@@ -5,7 +5,7 @@ import time
 # List of hash functions and their variants
 hash_functions = {
     "PHOTON": ["80", "128", "256"],
-    # "QUARK": ["UQUARK", "CQUARK", "SQUARK"],
+    "QUARK": ["UQUARK", "CQUARK", "SQUARK"],
     # "SPONGENT": ["088080008", "088176088", "128128008", "128256128", "160160016", "160160080", "224224016", "224224112", "256256016", "256256128"],
     "LESAMNTA": ["256"],
     "ASCON": ["256"],

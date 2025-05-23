@@ -99,20 +99,20 @@ def get_power_measurement_and_cycles(target, Hash_function_name, Hash_function_v
     # Check which LWHF it is
     if Hash_function_name in LWHF_names:
 
-        if Hash_function_name == "SPONGENT":
-            if Hash_function_variant == "088080008" or Hash_function_variant == "088176088":
-                hash_variant_byte_size = 11
-            elif Hash_function_variant == "128128008" or Hash_function_variant == "128256128":
-                hash_variant_byte_size = 16
-            elif Hash_function_variant == "160160016" or Hash_function_variant == "160160080" or Hash_function_variant == "160320160":
-                hash_variant_byte_size = 20
-            elif Hash_function_variant == "224224016" or Hash_function_variant == "224224112" or Hash_function_variant == "224448224":
-                hash_variant_byte_size = 28
-            elif Hash_function_variant == "256256016" or Hash_function_variant == "256256128" or Hash_function_variant == "256512256":
-                hash_variant_byte_size = 32
-        else:
+        # if Hash_function_name == "SPONGENT":
+        #     if Hash_function_variant == "088080008" or Hash_function_variant == "088176088":
+        #         hash_variant_byte_size = 11
+        #     elif Hash_function_variant == "128128008" or Hash_function_variant == "128256128":
+        #         hash_variant_byte_size = 16
+        #     elif Hash_function_variant == "160160016" or Hash_function_variant == "160160080" or Hash_function_variant == "160320160":
+        #         hash_variant_byte_size = 20
+        #     elif Hash_function_variant == "224224016" or Hash_function_variant == "224224112" or Hash_function_variant == "224448224":
+        #         hash_variant_byte_size = 28
+        #     elif Hash_function_variant == "256256016" or Hash_function_variant == "256256128" or Hash_function_variant == "256512256":
+        #         hash_variant_byte_size = 32
+        # else:
 
-            hash_variant_byte_size = int(int(Hash_function_variant)/8)
+        #     hash_variant_byte_size = int(int(Hash_function_variant)/8)
 
         response_received = False
         while not response_received:
@@ -124,7 +124,7 @@ def get_power_measurement_and_cycles(target, Hash_function_name, Hash_function_v
 
             if trace is not None and trace.textout is not None:  # Check if the capture was successful
                 # Define constants
-                ADC_REF_VOLTAGE = 3.3  # ADC reference voltage
+                ADC_REF_VOLTAGE = 1 # ADC reference voltage
                 AMPLIFIER_GAIN = scope.gain.db  # Amplifier gain in dB (verify scope.gain.actual if available)
                 SHUNT_RESISTOR = 49.9  # Shunt resistor value in ohms (50 Ω)
                 SUPPLY_VOLTAGE = 3.3  # Supply voltage to the target
@@ -149,11 +149,13 @@ def get_power_measurement_and_cycles(target, Hash_function_name, Hash_function_v
                 # print(f"Power Trace: {power_trace}")
 
                 rms_power = np.sqrt(np.mean(power_trace**2))
-                rms_power_mW = rms_power * 1000
+                # rms_power_mW = rms_power * 1000
+                # sampling_period = 1 / scope.clock.adc_freq  # Time between samples
+                # duration = len(power_trace) * sampling_period  # Total duration
 
-                sampling_period = 1 / scope.clock.adc_freq  # Time between samples
-                duration = len(power_trace) * sampling_period  # Total duration
-                energy = rms_power * duration
+                execution_time = (cycles_per_byte * 16) / scope.clock.clkgen_freq
+                energy = rms_power * execution_time
+                rms_power_mW = rms_power * 1000
                 energy_nJ = energy * 1000000000
 
                 # Debug printing of values from this function
@@ -460,13 +462,14 @@ if __name__ == "__main__":
     SCOPETYPE = 'OPENADC'
     if SCOPETYPE == "OPENADC":
         scope.gain.db = 5
-        scope.adc.samples = 100
+        scope.adc.samples = 5
         scope.adc.offset = 0
         scope.adc.basic_mode = "rising_edge"
         scope.adc.fifo_fill_mode = "normal"
         scope.clock.clkgen_src = 'system' 
         scope.clock.clkgen_freq = 7372800 #12000000
         scope.clock.adc_src = "clkgen_x4"
+        # scope.clock.adc_freq = 29500000 #Need to be changed
         scope.trigger.triggers = "tio4"
         scope.io.tio1 = "serial_rx"
         scope.io.tio2 = "serial_tx"     

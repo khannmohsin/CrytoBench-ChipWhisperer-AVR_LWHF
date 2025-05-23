@@ -28,6 +28,486 @@ PASS: PHOTON 256
 PASS: PHOTON 256
 PASS: PHOTON 256
 PASS: PHOTON 256
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK UQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'UQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK CQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'CQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
+FAIL: QUARK SQUARK
+Output:
+simpleserial-base-clock_power.c: In function 'process_byte_array':
+simpleserial-base-clock_power.c:818:33: warning: initializer-string for array of chars is too long
+  818 |         uint8_t plaintext[16] = "Hello, I am unknown!";  // Exactly 16 bytes
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+simpleserial-base-clock_power.c:822:1: warning: control reaches end of non-void function [-Wreturn-type]
+  822 | }
+      | ^
+Traceback (most recent call last):
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 483, in <module>
+    rms_power_mW, energy_nJ, cycles_per_byte = get_power_measurement_and_cycles(target, HASH_FUNC, HASH_VAR) 
+  File "/Users/khannmohsin/Chipwhispere_vscode/post_fw_program.py", line 115, in get_power_measurement_and_cycles
+    hash_variant_byte_size = int(int(Hash_function_variant)/8)
+ValueError: invalid literal for int() with base 10: 'SQUARK'
+
 PASS: LESAMNTA 256
 PASS: LESAMNTA 256
 PASS: LESAMNTA 256
