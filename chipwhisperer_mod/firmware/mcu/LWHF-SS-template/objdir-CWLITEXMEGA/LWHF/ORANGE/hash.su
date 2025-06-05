@@ -1,0 +1,13 @@
+photon.h:50:6:store16	3	static
+photon.h:58:5:load16	3	static
+photon.h:76:6:store32	3	static
+photon.h:84:5:load32	3	static
+photon.h:93:4:FieldMult	3	static
+photon.h:110:5:AddRC	3	static
+photon.h:121:5:SubCell	5	static
+photon.h:134:5:ShiftRow	11	static
+photon.h:148:4:TwoColMult	18	static
+photon.h:158:5:MixColumn	32	static
+photon.h:197:5:PHOTON_256_Permutation	5	static
+photon.h:212:5:photon	7	static
+hash.c:7:5:crypto_hash	109	static

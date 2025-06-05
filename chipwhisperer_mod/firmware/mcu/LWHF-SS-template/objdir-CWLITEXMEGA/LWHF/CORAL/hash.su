@@ -1,0 +1,6 @@
+hash.c:16:6:load64	6	static
+hash.c:24:6:store64	9	static
+hash.c:32:6:sbox	85	static
+hash.c:43:6:diffusion	52	static
+hash.c:59:6:permutation	47	static
+hash.c:79:5:crypto_hash	69	static

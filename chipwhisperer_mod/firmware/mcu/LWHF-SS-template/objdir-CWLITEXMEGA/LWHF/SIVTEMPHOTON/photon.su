@@ -1,0 +1,12 @@
+photon.c:15:6:AddKey	11	static
+photon.c:34:6:AddTweak	5	static
+photon.c:46:6:AddDomain	3	static
+photon.c:85:6:FieldMult	3	static
+photon.c:100:6:PrintState	15	dynamic,bounded
+photon.c:112:6:PrintState_Column	20	dynamic,bounded
+photon.c:124:6:AddConstant	3	static
+photon.c:131:6:SubCell	3	static
+photon.c:139:6:ShiftRow	16	static
+photon.c:151:6:MixColumn	30	static
+photon.c:219:6:Step	17	dynamic,bounded
+photon.c:239:6:TEM_PHOTON_Permutation	106	static

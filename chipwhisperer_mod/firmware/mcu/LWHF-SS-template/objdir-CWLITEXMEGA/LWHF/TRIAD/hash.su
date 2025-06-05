@@ -1,0 +1,3 @@
+hash.c:27:6:Stateupdate	15	static
+hash.c:51:6:Squeeze_digest	3	static
+hash.c:65:5:crypto_hash	405	static

@@ -1,0 +1,3 @@
+blake3_portable.c:84:6:blake3_compress_in_place_portable	155	static
+blake3_portable.c:100:6:blake3_compress_xof_portable	155	static
+blake3_portable.c:145:6:blake3_hash_many_portable	67	static

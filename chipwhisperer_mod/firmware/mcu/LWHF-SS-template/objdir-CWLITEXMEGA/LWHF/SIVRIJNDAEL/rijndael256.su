@@ -1,0 +1,2 @@
+rijndael256.c:9:6:rijndael256KeySched	26	static
+rijndael256.c:25:6:rijndael256Encrypt	41	static

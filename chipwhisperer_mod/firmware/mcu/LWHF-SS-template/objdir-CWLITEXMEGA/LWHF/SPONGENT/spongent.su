@@ -1,0 +1,10 @@
+spongent.c:39:6:PrintState	13	dynamic,bounded
+spongent.c:49:7:lCounter	3	static
+spongent.c:84:5:Pi	3	static
+spongent.c:96:6:pLayer	63	static
+spongent.c:117:6:Permute	11	static
+spongent.c:141:12:Init	5	static
+spongent.c:152:12:Absorb	3	static
+spongent.c:163:12:Pad	7	static
+spongent.c:186:12:Squeeze	3	static
+spongent.c:195:12:SpongentHash	104	static

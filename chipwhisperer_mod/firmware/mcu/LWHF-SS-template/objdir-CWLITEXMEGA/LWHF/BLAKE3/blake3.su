@@ -1,0 +1,11 @@
+blake3.c:268:15:blake3_compress_subtree_wide	396	dynamic,bounded
+blake3.c:462:6:blake3_hasher_update.part.0	525	static
+blake3.c:8:13:blake3_version	3	static
+blake3.c:376:6:blake3_hasher_init	3	static
+blake3.c:378:6:blake3_hasher_init_keyed	31	static
+blake3.c:462:6:blake3_hasher_update	3	static
+blake3.c:576:6:blake3_hasher_finalize_seek	428	dynamic,bounded
+blake3.c:571:6:blake3_hasher_finalize	9	static
+blake3.c:385:6:blake3_hasher_init_derive_key_raw	1968	static
+blake3.c:397:6:blake3_hasher_init_derive_key	3	static
+blake3.c:620:6:blake3_hasher_reset	3	static

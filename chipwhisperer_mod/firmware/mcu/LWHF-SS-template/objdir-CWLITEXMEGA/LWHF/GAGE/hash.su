@@ -1,0 +1,9 @@
+hash.c:32:6:print_state	15	dynamic,bounded
+hash.c:41:6:shuffle_state_bits	48	static
+hash.c:89:6:dtransform	6	static
+hash.c:123:6:qpermutation	9	static
+hash.c:134:6:Initialize	3	static
+hash.c:144:6:Padd	3	static
+hash.c:163:6:Absorb	35	static
+hash.c:180:6:Squeeze	9	static
+hash.c:192:5:crypto_hash	49	static

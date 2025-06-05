@@ -1,0 +1,2 @@
+hash.c:22:5:acehash_init	3	static
+hash.c:45:5:crypto_hash	19	static

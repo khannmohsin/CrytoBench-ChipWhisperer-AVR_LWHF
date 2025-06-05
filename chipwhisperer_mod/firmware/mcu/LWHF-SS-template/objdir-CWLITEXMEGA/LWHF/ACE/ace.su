@@ -1,0 +1,7 @@
+ace.c:21:15:rotl8	3	static
+ace.c:30:6:ace_print_state	13	dynamic,bounded
+ace.c:38:7:ace_print_data	19	dynamic,bounded
+ace.c:47:6:simeck64_box	28	static
+ace.c:109:6:ace_permutation	51	static
+ace.c:173:6:ace_permutation_ALLZERO	5	static
+ace.c:184:6:ace_permutation_ALLONE	3	static

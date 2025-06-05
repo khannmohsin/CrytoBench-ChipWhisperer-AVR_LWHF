@@ -1,0 +1,4 @@
+uart.c:9:17:init_uart0	3	static
+uart.c:43:23:input_ch_w_timeout_0	7	static
+uart.c:66:17:input_ch_0	3	static
+uart.c:79:17:output_ch_0	3	static

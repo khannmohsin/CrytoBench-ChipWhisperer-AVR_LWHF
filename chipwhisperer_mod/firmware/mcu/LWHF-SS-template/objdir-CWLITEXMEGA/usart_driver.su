@@ -1,0 +1,10 @@
+usart_driver.c:81:6:USART_InterruptDriver_Initialize	3	static
+usart_driver.c:106:6:USART_InterruptDriver_DreInterruptLevel_Set	3	static
+usart_driver.c:123:6:USART_TXBuffer_FreeSpace	3	static
+usart_driver.c:143:6:USART_TXBuffer_PutByte	6	static
+usart_driver.c:181:6:USART_RXBufferData_Available	3	static
+usart_driver.c:204:9:USART_RXBuffer_GetByte	3	static
+usart_driver.c:227:6:USART_RXComplete	3	static
+usart_driver.c:260:6:USART_DataRegEmpty	5	static
+usart_driver.c:292:6:USART_NineBits_PutChar	3	static
+usart_driver.c:313:10:USART_NineBits_GetChar	3	static

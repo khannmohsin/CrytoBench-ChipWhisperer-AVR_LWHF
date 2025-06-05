@@ -1,0 +1,7 @@
+sparkle_ref.c:62:6:linear_layer	33	static
+sparkle_ref.c:109:6:sparkle_ref	31	static
+sparkle_ref.c:129:6:linear_layer_inv	27	static
+sparkle_ref.c:176:6:sparkle_inv_ref	29	static
+sparkle_ref.c:196:6:clear_state_ref	3	static
+sparkle_ref.c:206:6:print_state_ref	31	dynamic,bounded
+sparkle_ref.c:223:6:test_sparkle_ref	75	static

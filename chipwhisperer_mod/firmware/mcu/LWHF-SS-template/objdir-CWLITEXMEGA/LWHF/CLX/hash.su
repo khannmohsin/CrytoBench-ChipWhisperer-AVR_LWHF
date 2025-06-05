@@ -1,0 +1,2 @@
+hash.c:20:6:state_update	7	static
+hash.c:40:5:crypto_hash	50	static

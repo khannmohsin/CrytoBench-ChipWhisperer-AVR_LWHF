@@ -1,0 +1,13 @@
+saturnin.c:17:1:make_round_constants	7	static
+saturnin.c:40:1:S_box	5	static
+saturnin.c:85:1:S_box_inv	3	static
+saturnin.c:130:1:MDS	35	static
+saturnin.c:199:1:MDS_inv	31	static
+saturnin.c:268:1:SR_slice	3	static
+saturnin.c:286:1:SR_slice_inv	3	static
+saturnin.c:304:1:SR_sheet	3	static
+saturnin.c:319:1:SR_sheet_inv	3	static
+saturnin.c:334:1:XOR_key	5	static
+saturnin.c:347:1:XOR_key_rotated	7	static
+saturnin.c:366:1:saturnin_block_encrypt	207	static
+saturnin.c:446:1:saturnin_block_decrypt	206	static

@@ -1,0 +1,5 @@
+hash.c:69:13:add_msg_blk	47	static
+hash.c:101:6:Initialize	3	static
+hash.c:117:6:ProcessMessage	9	static
+hash.c:145:6:Finalize	33	static
+hash.c:173:5:crypto_hash	75	static

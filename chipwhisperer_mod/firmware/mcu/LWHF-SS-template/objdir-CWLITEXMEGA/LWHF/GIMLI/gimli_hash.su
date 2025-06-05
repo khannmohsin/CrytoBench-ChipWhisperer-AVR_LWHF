@@ -1,0 +1,4 @@
+gimli.inc:7:17:load	11	static
+gimli.inc:16:13:store	3	static
+gimli.inc:24:13:gimli	31	static
+gimli_hash.c:55:5:crypto_hash_gimli24v1_ref	83	static

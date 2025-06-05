@@ -1,0 +1,3 @@
+round.h:11:20:ROUND	67	static
+permutations.h:72:20:P12	5	static
+hash.c:8:5:crypto_hash	81	static

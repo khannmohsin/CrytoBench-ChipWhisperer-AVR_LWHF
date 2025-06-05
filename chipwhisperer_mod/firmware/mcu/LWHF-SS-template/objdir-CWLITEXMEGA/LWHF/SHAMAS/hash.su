@@ -1,0 +1,12 @@
+hash.c:26:6:Difusion	60	static
+hash.c:40:6:Sbox	52	static
+hash.c:57:6:LESTOREu64in8bytearray	5	static
+hash.c:65:6:PartialLESTOREu64inbytearray	31	static
+hash.c:73:5:LELOAD8bytearrayinu64	12	static
+hash.c:82:5:PartialLELOADbytearrayinu64	37	static
+hash.c:91:6:Ronda	7	static
+hash.c:102:6:Initialize	25	static
+hash.c:113:6:ProcessAd	44	static
+hash.c:139:16:Processplaintxt	58	static
+hash.c:175:5:crypto_aead_encrypt	69	static
+hash.c:230:5:crypto_hash	202	dynamic,bounded

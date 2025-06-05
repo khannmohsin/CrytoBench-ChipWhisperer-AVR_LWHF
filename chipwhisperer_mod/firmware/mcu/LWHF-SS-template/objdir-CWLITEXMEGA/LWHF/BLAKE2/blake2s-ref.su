@@ -1,0 +1,8 @@
+blake2s-ref.c:172:13:blake2s_compress	281	static
+blake2s-ref.c:214:5:blake2s_update.part.0	17	static
+blake2s-ref.c:76:5:blake2s_init_param	13	static
+blake2s-ref.c:93:5:blake2s_init	37	static
+blake2s-ref.c:115:5:blake2s_init_key	109	static
+blake2s-ref.c:214:5:blake2s_update	3	static
+blake2s-ref.c:241:5:blake2s_final	51	static
+blake2s-ref.c:265:5:blake2s	134	static

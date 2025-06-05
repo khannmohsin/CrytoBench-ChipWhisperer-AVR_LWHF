@@ -1,0 +1,4 @@
+skinny_reference.c:99:13:AddKey	69	static
+skinny_reference.c:216:6:AddConstants	3	static
+skinny_reference.c:344:6:dec	172	static
+skinny_reference.c:437:6:enc	107	static

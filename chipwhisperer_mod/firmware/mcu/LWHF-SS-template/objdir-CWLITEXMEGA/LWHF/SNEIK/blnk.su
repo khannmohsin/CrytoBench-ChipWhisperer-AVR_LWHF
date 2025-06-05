@@ -1,0 +1,8 @@
+blnk.c:11:6:blnk_clr	3	static
+blnk.c:41:6:blnk_put	16	static
+blnk.c:25:6:blnk_fin	9	static
+blnk.c:60:6:blnk_get	16	static
+blnk.c:80:6:blnk_enc	18	static
+blnk.c:102:6:blnk_dec	18	static
+blnk.c:126:5:blnk_cmp	17	static
+blnk.c:150:6:blnk_ratchet	3	static

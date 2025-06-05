@@ -1,0 +1,11 @@
+simpleserial-base.c:542:9:get_clock_frequency	9	static
+simpleserial-base.c:575:9:get_key	3	static
+simpleserial-base.c:501:9:echo_plaintext	9	static
+simpleserial-base.c:581:9:reset	3	static
+hal.h:200:28:led_ok	3	static
+hal.h:204:28:led_error	3	static
+simpleserial-base.c:12:6:delay_ms	9	static
+simpleserial-base.c:20:10:process_byte_array	39	static
+simpleserial-base.c:474:9:get_pt	6	static
+simpleserial-base.c:515:9:clock_cycles	25	static
+simpleserial-base.c:621:5:main	3	static

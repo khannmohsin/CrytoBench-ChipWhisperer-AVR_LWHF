@@ -1,0 +1,12 @@
+simpleserial.c:261:9:check_version	3	static
+hal.h:200:28:led_ok	3	static
+hal.h:204:28:led_error	3	static
+simpleserial.c:20:9:ss_crc	3	static
+simpleserial.c:298:5:hex_decode	3	static
+simpleserial.c:343:5:simpleserial_addcmd_flags	3	static
+simpleserial.c:338:5:simpleserial_addcmd	3	static
+simpleserial.c:331:6:simpleserial_init	3	static
+simpleserial.c:424:6:simpleserial_put	8	static
+simpleserial.c:266:9:ss_num_commands	6	static
+simpleserial.c:279:9:ss_get_commands	53	static
+simpleserial.c:360:6:simpleserial_get	782	static

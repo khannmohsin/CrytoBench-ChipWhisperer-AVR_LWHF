@@ -1,0 +1,5 @@
+blake3_dispatch.c:168:6:blake3_compress_in_place	10	static
+blake3_dispatch.c:197:6:blake3_compress_xof	14	static
+blake3_dispatch.c:227:6:blake3_xof_many	32	static
+blake3_dispatch.c:249:6:blake3_hash_many	19	dynamic,bounded
+blake3_dispatch.c:302:8:blake3_simd_degree	3	static

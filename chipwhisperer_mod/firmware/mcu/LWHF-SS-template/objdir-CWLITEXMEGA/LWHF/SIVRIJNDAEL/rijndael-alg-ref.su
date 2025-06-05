@@ -1,0 +1,8 @@
+rijndael-alg-ref.c:51:7:mul	3	static
+rijndael-alg-ref.c:59:6:TweakAddition	3	static
+rijndael-alg-ref.c:67:6:KeyAddition	5	static
+rijndael-alg-ref.c:76:6:ShiftRow	21	static
+rijndael-alg-ref.c:89:6:Substitution	3	static
+rijndael-alg-ref.c:99:6:MixColumn	48	static
+rijndael-alg-ref.c:115:5:rijndaelKeySched	28	static
+rijndael-alg-ref.c:148:5:rijndaelEncrypt	10	static
