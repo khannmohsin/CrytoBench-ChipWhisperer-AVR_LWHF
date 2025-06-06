@@ -55,7 +55,7 @@ CW_project/
 
 To better understand the system's architecture, refer to the following diagram:
 
-![ChipWhisperer Architecture](Manuscripts/Arch_Chipwhisperer.png)
+![ChipWhisperer Architecture](Manuscript/Arch_Chipwhisperer.png)
 
 ### Python Dependencies
 
