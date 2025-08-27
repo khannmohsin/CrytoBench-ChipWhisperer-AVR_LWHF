@@ -179,28 +179,6 @@ E-RANK = (10^9 / CPB) / [(ROM + 2×RAM) × Energy]
 
 ---
 
-## Reference
-
-**Paper**: *Software Benchmarking and Comparative Performance Analysis of NIST Submitted and ISO Standardized LWHFs*  
-**Authors**: [Author Names]  
-**Platform**: AVR ATXMega128D4 + ChipWhisperer  
-**Year**: 2025
-
----
-
-## Citation
-
-```bibtex
-@inproceedings{lightsec2025,
-  title={Software Benchmarking and Comparative Performance Analysis of NIST Submitted and ISO Standardized Lightweight Hash Functions},
-  author={[Author Names]},
-  booktitle={LightSec Conference},
-  year={2025}
-}
-```
-
----
-
 ## License
 
 This project includes custom code and adaptations of ChipWhisperer (© NewAE Technology). Custom LWHF instrumentation developed by [Your Name or Institution].
