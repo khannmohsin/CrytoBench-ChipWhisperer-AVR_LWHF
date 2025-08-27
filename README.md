@@ -181,6 +181,6 @@ E-RANK = (10^9 / CPB) / [(ROM + 2×RAM) × Energy]
 
 ## License
 
-This project includes custom code and adaptations of ChipWhisperer (© NewAE Technology). Custom LWHF instrumentation developed by [Your Name or Institution].
+This project includes custom code and adaptations of ChipWhisperer (© NewAE Technology). Custom LWHF instrumentation developed.
 """
 
